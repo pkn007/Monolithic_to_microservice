@@ -54,7 +54,7 @@ app.post('/signup',async (req,res)=>{
     }
 })
 //password:BHRko6IwaHK6Ca4k
-mongoose.connect("mongodb+srv://akashvangadi47:123456cc@cc.47576ip.mongodb.net/") //connect to database , then create middleware server
+mongoose.connect("mongodb+srv://pritamgurav95272:Nt3zmHAuIWan3hdO@cluster0.xxzqufh.mongodb.net/") //connect to database , then create middleware server
 .then(()=>{
     app.listen(5001,()=>console.log("uc1 running"))
 }).catch((error) => {

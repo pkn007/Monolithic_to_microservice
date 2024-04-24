@@ -68,7 +68,7 @@ app.get('/product',async (req,res)=>{
     res.status(200).json(plist)
     console.log("got products")
 })
-mongoose.connect("mongodb+srv://akashvangadi47:123456cc@cc.47576ip.mongodb.net/") //connect to database , then create middleware server
+mongoose.connect("mongodb+srv://pritamgurav95272:Nt3zmHAuIWan3hdO@cluster0.xxzqufh.mongodb.net/") //connect to database , then create middleware server
 .then(()=>{
     app.listen(5002,()=>console.log("uc2 running"))
 }).catch((error) => {

@@ -232,7 +232,7 @@ app.get('/history/:user', async (req, res) => {
     }
 });
 
-mongoose.connect("mongodb+srv://akashvangadi47:123456cc@cc.47576ip.mongodb.net/")
+mongoose.connect("mongodb+srv://pritamgurav95272:Nt3zmHAuIWan3hdO@cluster0.xxzqufh.mongodb.net/")
     .then(() => {
         app.listen(5003, () => console.log("uc3 running"));
     }).catch((error) => {

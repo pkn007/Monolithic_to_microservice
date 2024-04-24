@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
 // Connect to MongoDB Atlas (replace with your connection string)
-mongoose.connect('mongodb+srv://akashvangadi47:123456cc@cc.47576ip.mongodb.net/', {
+mongoose.connect('mongodb+srv://pritamgurav95272:Nt3zmHAuIWan3hdO@cluster0.xxzqufh.mongodb.net/', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
   serverSelectionTimeoutMS: 10000, // Increase to 30 seconds
@@ -147,7 +147,7 @@ async function insertSpecificData() {
   try {
     // Insert a specific user
     const user = {
-      email: 'user@example.com',
+      email: 'user1@example.com',
       password: 'securepassword123',
     };
     await UserModel.create(user);
